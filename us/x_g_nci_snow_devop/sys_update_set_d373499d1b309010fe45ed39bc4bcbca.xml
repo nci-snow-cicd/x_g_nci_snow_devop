@@ -1,0 +1,1300 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2020-05-14 16:04:12">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<application_name>SNOW_DevOps</application_name>
+<application_scope>x_g_nci_snow_devop</application_scope>
+<application_version>1.0.0</application_version>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Automatically created by CICD Process</description>
+<inserted/>
+<name>SNOW_DevOps - 1.0.0</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>d373499d1b309010fe45ed39bc4bcbca</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>ae8385111b709010fe45ed39bc4bcbbc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_c177941d1b7c5010fe45ed39bc4bcbd6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Set Field Values">aa492c011b7c1010fe45ed39bc4bcba6</copied_from><description>Set the values on the form as follows:
+State = Open
+and Short description = ATF Test for CICD
+and Assignment group = ITIL read/only
+and Urgency = 3 - Low
+and Description = it is not working</description><display_name>Set Field Values</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><snapshot/><step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:51:35</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>c177941d1b7c5010fe45ed39bc4bcbd6</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Set Field Values</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_step_c177941d1b7c5010fe45ed39bc4bcbd6</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:52:17</sys_updated_on><table>x_g_nci_snow_devop_snow_devops_table</table><test display_value="SNOW DevOps copy">05779cd91b7c5010fe45ed39bc4bcbaf</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=c177941d1b7c5010fe45ed39bc4bcbd6"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c177941d1b7c5010fe45ed39bc4bcbd6</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:51:35</sys_created_on><sys_id>4577941d1b7c5010fe45ed39bc4bcbd7</sys_id><sys_mod_count>1</sys_mod_count><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:52:17</sys_updated_on><value>state=1^short_description=ATF Test for CICD^assignment_group=7b4e75806f868a00e04fd15eae3ee488^urgency=3^description=it is not working^EQ</value><variable display_value="">b3dba2465320220002c6435723dc34f0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>c177941d1b7c5010fe45ed39bc4bcbd6</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:51:35</sys_created_on><sys_id>8177941d1b7c5010fe45ed39bc4bcbd7</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:51:35</sys_updated_on><value>x_g_nci_snow_devop_snow_devops_table</value><variable display_value="">424ca6465320220002c6435723dc34b5</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>1650964531</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>328385111b709010fe45ed39bc4bcbc0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9cdf0000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table>x_g_nci_snow_devop_snow_devops_table</table>
+<target_name>Set Field Values</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>97734511b170901094d1ac178b257415</update_guid>
+<update_guid_history>97734511b170901094d1ac178b257415:1650964531,a397581dc17c50101e20d72646c54f3c:1650964531,c577941db37c5010165663978ce4b2d8:-1337534368</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_56b828cd1b3c1010fe45ed39bc4bcb55</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><extension_model>class</extension_model><is_extendable>true</is_extendable><label>SNOW_DevOps Table</label><live_feed_enabled>false</live_feed_enabled><name>x_g_nci_snow_devop_snow_devops_table</name><number_ref display_value="SNO">3eb86ccd1b3c1010fe45ed39bc4bcb38</number_ref><provider_class/><read_access>true</read_access><super_class display_value="Task" name="task">68e745436f022100250e6bbeae3ee45b</super_class><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:28:33</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>56b828cd1b3c1010fe45ed39bc4bcb55</sys_id><sys_mod_count>1</sys_mod_count><sys_name>SNOW_DevOps Table</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_db_object_56b828cd1b3c1010fe45ed39bc4bcb55</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:28:34</sys_updated_on><update_access>false</update_access><user_role display_value="x_g_nci_snow_devop.user" name="x_g_nci_snow_devop.user">56b82ccd1b3c1010fe45ed39bc4bcb9c</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>270265279</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>328385111b709010fe45ed39bc4bcbc3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9dcf0000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table>x_g_nci_snow_devop_snow_devops_table</table>
+<target_name>SNOW_DevOps Table</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>637345114670901010bca78be1bfc32a</update_guid>
+<update_guid_history>637345114670901010bca78be1bfc32a:270265279,fab86ccd153c1010e71e7ee91785954a:270265279,7ab86ccd143c1010a9db42a2fd6eb537:-1511688409</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_wizard_answer_aab86ccd1b3c1010fe45ed39bc4bcb03</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>SNOW_DevOps Table</answer><button_label/><dependent_value/><element/><name>SNOW_DevOps Table</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">2ce745436f022100250e6bbeae3ee45b</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:28:34</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>aab86ccd1b3c1010fe45ed39bc4bcb03</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SNOW_DevOps Table</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_wizard_answer_aab86ccd1b3c1010fe45ed39bc4bcb03</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:28:34</sys_updated_on><table/><target_url>x_g_nci_snow_devop_snow_devops_table.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+<payload_hash>1340480820</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>328385111b709010fe45ed39bc4bcbc6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9e700000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>SNOW_DevOps Table</target_name>
+<type>Answer</type>
+<update_domain>global</update_domain>
+<update_guid>eb7345114e709010d50e11ffd3829134</update_guid>
+<update_guid_history>eb7345114e709010d50e11ffd3829134:1340480820,e46ae481077c101096650d947d151d12:1340480820</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_9579ec011b7c1010fe45ed39bc4bcb4f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Submit the current form and confirm form submitted to server</description><display_name>Submit a Form</display_name><inputs/><mugshots_cache_json/><notes/><order>4</order><snapshot/><step_config display_value="Submit a Form">be8e0a935332120028bc29cac2dc34e4</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:31:47</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>9579ec011b7c1010fe45ed39bc4bcb4f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Submit a Form</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_step_9579ec011b7c1010fe45ed39bc4bcb4f</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:31:47</sys_updated_on><table/><test display_value="SNOW DevOps">9909e4011b7c1010fe45ed39bc4bcb8d</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=9579ec011b7c1010fe45ed39bc4bcb4f"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>9579ec011b7c1010fe45ed39bc4bcb4f</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:31:47</sys_created_on><sys_id>7979ac011b7c1010fe45ed39bc4bcbca</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:31:47</sys_updated_on><value>form_submitted_to_server</value><variable display_value="">c796d40497302200abe4bb7503ac4ad8</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>1603612698</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>368385111b709010fe45ed39bc4bcbbf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9c8b0000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>Submit a Form</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>9b73451198709010be07d10e967aff0d</update_guid>
+<update_guid_history>9b73451198709010be07d10e967aff0d:1603612698,f979ac01dc7c1010d6a2872b05d9f7cb:1603612698</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_suite_test_af52301d1bfc5010fe45ed39bc4bcb42</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test"><sys_atf_test_suite_test action="DELETE"><abort_on_failure>false</abort_on_failure><order/><sys_class_name>sys_atf_test_suite_test</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 14:49:10</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>af52301d1bfc5010fe45ed39bc4bcb42</sys_id><sys_mod_count>0</sys_mod_count><sys_name>11c0d80fdb3e80109e793a8c7c9619a5</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_test_suite_test_af52301d1bfc5010fe45ed39bc4bcb42</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 14:49:10</sys_updated_on><test display_value="CICD Dev Ops Test">0925acc91b3c1010fe45ed39bc4bcb15</test><test_suite display_value="Conference room support request">11c0d80fdb3e80109e793a8c7c9619a5</test_suite></sys_atf_test_suite_test></record_update>]]></payload>
+<payload_hash>1222055054</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>368385111b709010fe45ed39bc4bcbc2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9b3a0000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>11c0d80fdb3e80109e793a8c7c9619a5</target_name>
+<type>Test Suite Test</type>
+<update_domain>global</update_domain>
+<update_guid>9b730511fe7090103a9966295a187ff0</update_guid>
+<update_guid_history>9b730511fe7090103a9966295a187ff0:1222055054,ea83345d46fc50106d5fd5974dc1bf07:1222055054,ab52301d08fc5010a531baa826a92e43:-1083078630</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_application_f2b86ccd1b3c1010fe45ed39bc4bcb50</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>SNOW_DevOps</name><order/><roles>x_g_nci_snow_devop.user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:28:34</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>f2b86ccd1b3c1010fe45ed39bc4bcb50</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SNOW_DevOps</sys_name><sys_overrides/><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_ui_application_f2b86ccd1b3c1010fe45ed39bc4bcb50</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:28:34</sys_updated_on></sys_ui_application></record_update>]]></payload>
+<payload_hash>-509684683</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>368385111b709010fe45ed39bc4bcbc5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9e9e0000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>SNOW_DevOps</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>6373451175709010de4633a683130439</update_guid>
+<update_guid_history>6373451175709010de4633a683130439:-509684683,36b86ccd423c101010810fe691934651:-509684683</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_7329a8011b7c1010fe45ed39bc4bcb11</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Open a new 'SNOW_DevOps Table' form</description><display_name>Open a New Form</display_name><inputs/><mugshots_cache_json/><notes/><order>2</order><snapshot/><step_config display_value="Open a New Form">05317cd10b10220050192f15d6673af8</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:30:51</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>7329a8011b7c1010fe45ed39bc4bcb11</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open a New Form</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_step_7329a8011b7c1010fe45ed39bc4bcb11</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:30:51</sys_updated_on><table>x_g_nci_snow_devop_snow_devops_table</table><test display_value="SNOW DevOps">9909e4011b7c1010fe45ed39bc4bcb8d</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=7329a8011b7c1010fe45ed39bc4bcb11"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7329a8011b7c1010fe45ed39bc4bcb11</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:30:51</sys_created_on><sys_id>8049a8011b7c1010fe45ed39bc4bcb1b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:30:51</sys_updated_on><value>x_g_nci_snow_devop_snow_devops_table</value><variable display_value="">bb84ed825320220002c6435723dc3400</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7329a8011b7c1010fe45ed39bc4bcb11</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:30:51</sys_created_on><sys_id>8c49a8011b7c1010fe45ed39bc4bcb1a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:30:51</sys_updated_on><value/><variable display_value="">27d4e1c25320220002c6435723dc3486</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>205038865</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>3a8385111b709010fe45ed39bc4bcbbe</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9c340000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table>x_g_nci_snow_devop_snow_devops_table</table>
+<target_name>Open a New Form</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>1f734511c0709010ae1e5a6035f7b705</update_guid>
+<update_guid_history>1f734511c0709010ae1e5a6035f7b705:205038865,0849e801f67c1010897c7caaf9ebae91:205038865</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_suite_test_2352301d1bfc5010fe45ed39bc4bcb40</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test"><sys_atf_test_suite_test action="DELETE"><abort_on_failure>false</abort_on_failure><order/><sys_class_name>sys_atf_test_suite_test</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 14:49:10</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>2352301d1bfc5010fe45ed39bc4bcb40</sys_id><sys_mod_count>0</sys_mod_count><sys_name>11c0d80fdb3e80109e793a8c7c9619a5</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_test_suite_test_2352301d1bfc5010fe45ed39bc4bcb40</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 14:49:10</sys_updated_on><test display_value="CICD Dev Ops Test copy">3527dcd91b7c5010fe45ed39bc4bcb3f</test><test_suite display_value="Conference room support request">11c0d80fdb3e80109e793a8c7c9619a5</test_suite></sys_atf_test_suite_test></record_update>]]></payload>
+<payload_hash>-1350743521</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>3a8385111b709010fe45ed39bc4bcbc1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9b040000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>11c0d80fdb3e80109e793a8c7c9619a5</target_name>
+<type>Test Suite Test</type>
+<update_domain>global</update_domain>
+<update_guid>1773499d963090104f1b0301a0264dce</update_guid>
+<update_guid_history>1773499d963090104f1b0301a0264dce:-1350743521,a4a3b05debfc501038535a1c67c18cf1:-1350743521,2f52301dd5fc5010d4459945362b6d40:1968778771</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_2eb82ccd1b3c1010fe45ed39bc4bcbcd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:28:33</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>2eb82ccd1b3c1010fe45ed39bc4bcbcd</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_g_nci_snow_devop_snow_devops_table.x_g_nci_snow_devop.user</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_security_acl display_value="x_g_nci_snow_devop_snow_devops_table">eeb82ccd1b3c1010fe45ed39bc4bcbba</sys_security_acl><sys_update_name>sys_security_acl_role_2eb82ccd1b3c1010fe45ed39bc4bcbcd</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:28:33</sys_updated_on><sys_user_role display_value="x_g_nci_snow_devop.user" name="x_g_nci_snow_devop.user">56b82ccd1b3c1010fe45ed39bc4bcb9c</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-1204943776</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>3a8385111b709010fe45ed39bc4bcbc4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9d760000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table>x_g_nci_snow_devop_snow_devops_table</table>
+<target_name>x_g_nci_snow_devop_snow_devops_table.x_g_nci_snow_devop.user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>277345115b70901055e1464a638ac922</update_guid>
+<update_guid_history>277345115b70901055e1464a638ac922:-1204943776,a6b82ccd493c101010e9ac6616cbfad1:-1204943776</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_fab86ccd1b3c1010fe45ed39bc4bcb4d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="SNOW_DevOps">d2b8a8cd1b3c1010fe45ed39bc4bcbf2</application><assessment/><content_page/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>SNOW_DevOps Table</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_g_nci_snow_devop_snow_devops_table</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_g_nci_snow_devop.user</roles><survey/><survey_overwrite>true</survey_overwrite><sys_class_name>sys_app_module</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:28:34</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>fab86ccd1b3c1010fe45ed39bc4bcb4d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SNOW_DevOps Table</sys_name><sys_overrides/><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_app_module_fab86ccd1b3c1010fe45ed39bc4bcb4d</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:28:34</sys_updated_on><timeline_page/><title>SNOW_DevOps Table</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>1571186011</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>3e8385111b709010fe45ed39bc4bcbbd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9eb30000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table>x_g_nci_snow_devop_snow_devops_table</table>
+<target_name>SNOW_DevOps Table</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>237345112b7090106f17baa55b7b4e47</update_guid>
+<update_guid_history>237345112b7090106f17baa55b7b4e47:1571186011,76b86ccd703c1010ed590b98c28d294f:1571186011</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_3527dcd91b7c5010fe45ed39bc4bcb3f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="CICD Dev Ops Test">0925acc91b3c1010fe45ed39bc4bcb15</copied_from><description/><enable_parameterized_testing>false</enable_parameterized_testing><name>CICD Dev Ops Test copy</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:50:15</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>3527dcd91b7c5010fe45ed39bc4bcb3f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CICD Dev Ops Test copy</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_test_3527dcd91b7c5010fe45ed39bc4bcb3f</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:50:15</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=3527dcd91b7c5010fe45ed39bc4bcb3f"/></record_update>]]></payload>
+<payload_hash>-952741478</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>3e8385111b709010fe45ed39bc4bcbc0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9b870000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>CICD Dev Ops Test copy</target_name>
+<type>Test</type>
+<update_domain>global</update_domain>
+<update_guid>17730511ac709010cabab20019fecdf7</update_guid>
+<update_guid_history>17730511ac709010cabab20019fecdf7:-952741478,b927501d217c50107ab6ad29e3275d0d:-952741478</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_26b82ccd1b3c1010fe45ed39bc4bcbd2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_g_nci_snow_devop_snow_devops_table</description><name>x_g_nci_snow_devop_snow_devops_table</name><operation display_value="read">read</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:28:34</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>26b82ccd1b3c1010fe45ed39bc4bcbd2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_g_nci_snow_devop_snow_devops_table</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_security_acl_26b82ccd1b3c1010fe45ed39bc4bcbd2</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:28:34</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>422477964</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>3e8385111b709010fe45ed39bc4bcbc3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9d200000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table>x_g_nci_snow_devop_snow_devops_table</table>
+<target_name>x_g_nci_snow_devop_snow_devops_table</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>df73451138709010e4fb4314ed6b531a</update_guid>
+<update_guid_history>df73451138709010e4fb4314ed6b531a:422477964,a6b82ccd6a3c10103a727e5750555ed7:422477964</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_89779cd91b7c5010fe45ed39bc4bcbb5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Open a New Form">7329a8011b7c1010fe45ed39bc4bcb11</copied_from><description>Open a new 'SNOW_DevOps Table' form</description><display_name>Open a New Form</display_name><inputs/><mugshots_cache_json/><notes/><order>2</order><snapshot/><step_config display_value="Open a New Form">05317cd10b10220050192f15d6673af8</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:51:35</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>89779cd91b7c5010fe45ed39bc4bcbb5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open a New Form</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_step_89779cd91b7c5010fe45ed39bc4bcbb5</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:51:35</sys_updated_on><table>x_g_nci_snow_devop_snow_devops_table</table><test display_value="SNOW DevOps copy">05779cd91b7c5010fe45ed39bc4bcbaf</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=89779cd91b7c5010fe45ed39bc4bcbb5"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>89779cd91b7c5010fe45ed39bc4bcbb5</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:51:35</sys_created_on><sys_id>05779cd91b7c5010fe45ed39bc4bcbb6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:51:35</sys_updated_on><value/><variable display_value="">27d4e1c25320220002c6435723dc3486</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>89779cd91b7c5010fe45ed39bc4bcbb5</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:51:35</sys_created_on><sys_id>c5779cd91b7c5010fe45ed39bc4bcbb6</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:51:35</sys_updated_on><value>x_g_nci_snow_devop_snow_devops_table</value><variable display_value="">bb84ed825320220002c6435723dc3400</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-1499354590</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>728385111b709010fe45ed39bc4bcbbf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9c740000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table>x_g_nci_snow_devop_snow_devops_table</table>
+<target_name>Open a New Form</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>9b7345115a709010eb17f2d52232100b</update_guid>
+<update_guid_history>9b7345115a709010eb17f2d52232100b:-1499354590,8977941dec7c501080669a3f854f32d4:-1499354590</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_suite_test_9627dc191b30901094edddb6bc4bcb53</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test"><sys_atf_test_suite_test action="DELETE"><abort_on_failure>false</abort_on_failure><order/><sys_class_name>sys_atf_test_suite_test</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:50:17</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>9627dc191b30901094edddb6bc4bcb53</sys_id><sys_mod_count>0</sys_mod_count><sys_name>11c0d80fdb3e80109e793a8c7c9619a5</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_test_suite_test_9627dc191b30901094edddb6bc4bcb53</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:50:17</sys_updated_on><test display_value="CICD Dev Ops Test copy">3527dcd91b7c5010fe45ed39bc4bcb3f</test><test_suite display_value="Conference room support request">11c0d80fdb3e80109e793a8c7c9619a5</test_suite></sys_atf_test_suite_test></record_update>]]></payload>
+<payload_hash>-1350743521</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>728385111b709010fe45ed39bc4bcbc2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9b240000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>11c0d80fdb3e80109e793a8c7c9619a5</target_name>
+<type>Test Suite Test</type>
+<update_domain>global</update_domain>
+<update_guid>1373499d843090105837c4d2b8ba91d2</update_guid>
+<update_guid_history>1373499d843090105837c4d2b8ba91d2:-1350743521,96f7545dd27c5010f6d1ceb227315d50:-1350743521,9a27dc194030901077f371f795fbe755:1968778771</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_a2b82ccd1b3c1010fe45ed39bc4bcbee</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:28:34</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>a2b82ccd1b3c1010fe45ed39bc4bcbee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_g_nci_snow_devop_snow_devops_table.x_g_nci_snow_devop.user</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_security_acl display_value="x_g_nci_snow_devop_snow_devops_table">66b82ccd1b3c1010fe45ed39bc4bcbe8</sys_security_acl><sys_update_name>sys_security_acl_role_a2b82ccd1b3c1010fe45ed39bc4bcbee</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:28:34</sys_updated_on><sys_user_role display_value="x_g_nci_snow_devop.user" name="x_g_nci_snow_devop.user">56b82ccd1b3c1010fe45ed39bc4bcb9c</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1952659892</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>728385111b709010fe45ed39bc4bcbc5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9da20000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table>x_g_nci_snow_devop_snow_devops_table</table>
+<target_name>x_g_nci_snow_devop_snow_devops_table.x_g_nci_snow_devop.user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>6b73451142709010a691d53aa1931b26</update_guid>
+<update_guid_history>6b73451142709010a691d53aa1931b26:1952659892,a2b82ccdf53c10107b7ec2e567c0a0f1:1952659892</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_3927501d1b7c5010fe45ed39bc4bcb17</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Set Field Values">4755ecc91b3c1010fe45ed39bc4bcb77</copied_from><description>Set the values on the form as follows:
+State = Open
+and Short description = test ATF for DevOps CICD App
+and Description = CICD ATF Test for DevOps App
+and Urgency = 3 - Low
+and Assignment group = ITIL read/only
+and Close notes = Resolved and closed</description><display_name>Set Field Values</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><snapshot/><step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:50:15</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>3927501d1b7c5010fe45ed39bc4bcb17</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Set Field Values</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_step_3927501d1b7c5010fe45ed39bc4bcb17</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:50:15</sys_updated_on><table>x_g_nci_cicd_dev_o_cicd_dev_ops_table</table><test display_value="CICD Dev Ops Test copy">3527dcd91b7c5010fe45ed39bc4bcb3f</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=3927501d1b7c5010fe45ed39bc4bcb17"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>3927501d1b7c5010fe45ed39bc4bcb17</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:50:15</sys_created_on><sys_id>b527501d1b7c5010fe45ed39bc4bcb25</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:50:15</sys_updated_on><value>state=1^short_description=test ATF for DevOps CICD App^description=CICD ATF Test for DevOps App^urgency=3^assignment_group=7b4e75806f868a00e04fd15eae3ee488^close_notes=Resolved and closed^EQ</value><variable display_value="">b3dba2465320220002c6435723dc34f0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>3927501d1b7c5010fe45ed39bc4bcb17</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:50:15</sys_created_on><sys_id>f127501d1b7c5010fe45ed39bc4bcb25</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:50:15</sys_updated_on><value>x_g_nci_cicd_dev_o_cicd_dev_ops_table</value><variable display_value="">424ca6465320220002c6435723dc34b5</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>1735624323</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>768385111b709010fe45ed39bc4bcbbe</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9c180000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table>x_g_nci_cicd_dev_o_cicd_dev_ops_table</table>
+<target_name>Set Field Values</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>5b734511707090102825ed581eb61503</update_guid>
+<update_guid_history>5b734511707090102825ed581eb61503:1735624323,b927501d227c5010b443235b6ccd8f26:1735624323</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_de247c5d1bfc5010fe45ed39bc4bcbd8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description/><enable_parameterized_testing>false</enable_parameterized_testing><name>SNOW TEST2</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 14:57:19</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>de247c5d1bfc5010fe45ed39bc4bcbd8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SNOW TEST2</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_test_de247c5d1bfc5010fe45ed39bc4bcbd8</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 14:57:19</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=de247c5d1bfc5010fe45ed39bc4bcbd8"/></record_update>]]></payload>
+<payload_hash>834210706</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>768385111b709010fe45ed39bc4bcbc1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9bcd0000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>SNOW TEST2</target_name>
+<type>Test</type>
+<update_domain>global</update_domain>
+<update_guid>5373051132709010ffb59d3c7da30dfd</update_guid>
+<update_guid_history>5373051132709010ffb59d3c7da30dfd:834210706,8b34349916fc5010d1232e4304b19542:834210706</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_eeb82ccd1b3c1010fe45ed39bc4bcbf1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_g_nci_snow_devop_snow_devops_table</description><name>x_g_nci_snow_devop_snow_devops_table</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:28:34</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>eeb82ccd1b3c1010fe45ed39bc4bcbf1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_g_nci_snow_devop_snow_devops_table</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_security_acl_eeb82ccd1b3c1010fe45ed39bc4bcbf1</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:28:34</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1692536246</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>768385111b709010fe45ed39bc4bcbc4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9d4c0000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table>x_g_nci_snow_devop_snow_devops_table</table>
+<target_name>x_g_nci_snow_devop_snow_devops_table</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>6373451127709010b1c90f763bf8f91f</update_guid>
+<update_guid_history>6373451127709010b1c90f763bf8f91f:1692536246,62b82ccd6e3c10108f895f74b8984af7:1692536246</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_application_d2b8a8cd1b3c1010fe45ed39bc4bcbf2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category/><description/><device_type>browser</device_type><hint/><name>SNOW_DevOps</name><order/><roles>x_g_nci_snow_devop.user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:28:33</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>d2b8a8cd1b3c1010fe45ed39bc4bcbf2</sys_id><sys_mod_count>1</sys_mod_count><sys_name>SNOW_DevOps</sys_name><sys_overrides/><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_app_application_d2b8a8cd1b3c1010fe45ed39bc4bcbf2</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:28:33</sys_updated_on><title>SNOW_DevOps</title><view_name/></sys_app_application></record_update>]]></payload>
+<payload_hash>-642120426</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>7a8385111b709010fe45ed39bc4bcbbd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9e7e0000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>SNOW_DevOps</target_name>
+<type>Application Menu</type>
+<update_domain>global</update_domain>
+<update_guid>a373451127709010e7198d2024081b36</update_guid>
+<update_guid_history>a373451127709010e7198d2024081b36:-642120426,286ae4818f7c1010c9abde4f6dfc9515:-642120426,eeb82ccde83c1010497e183172fb10b4:710174464,12b82ccde63c1010a5b5ef8f459f239b:-1896997493</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_05779cd91b7c5010fe45ed39bc4bcbaf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="SNOW DevOps">9909e4011b7c1010fe45ed39bc4bcb8d</copied_from><description/><enable_parameterized_testing>false</enable_parameterized_testing><name>SNOW DevOps copy</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:51:35</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>05779cd91b7c5010fe45ed39bc4bcbaf</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SNOW DevOps copy</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_test_05779cd91b7c5010fe45ed39bc4bcbaf</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:51:35</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=05779cd91b7c5010fe45ed39bc4bcbaf"/></record_update>]]></payload>
+<payload_hash>1311855773</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>7a8385111b709010fe45ed39bc4bcbc0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9b6e0000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>SNOW DevOps copy</target_name>
+<type>Test</type>
+<update_domain>global</update_domain>
+<update_guid>17730511287090103ee813a530d251f5</update_guid>
+<update_guid_history>17730511287090103ee813a530d251f5:1311855773,41779cd9b97c5010e161e50c168aabb1:1311855773</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_number_3eb86ccd1b3c1010fe45ed39bc4bcb38</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number"><sys_number action="INSERT_OR_UPDATE"><category display_value="" name="x_g_nci_snow_devop_snow_devops_table">x_g_nci_snow_devop_snow_devops_table</category><maximum_digits>7</maximum_digits><number>1000</number><prefix>SNO</prefix><sys_class_name>sys_number</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:28:34</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>3eb86ccd1b3c1010fe45ed39bc4bcb38</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SNO</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_number_3eb86ccd1b3c1010fe45ed39bc4bcb38</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:28:34</sys_updated_on></sys_number></record_update>]]></payload>
+<payload_hash>-578458851</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>7a8385111b709010fe45ed39bc4bcbc3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9dbb0000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>SNO</target_name>
+<type>Number</type>
+<update_domain>global</update_domain>
+<update_guid>27734511a0709010ecb87a7f2ebf1c28</update_guid>
+<update_guid_history>27734511a0709010ecb87a7f2ebf1c28:-578458851,f2b86ccdba3c10106f6c50bc108b6c4c:-578458851</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_bd27501d1b7c5010fe45ed39bc4bcb0e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Impersonate">d845ecc91b3c1010fe45ed39bc4bcbc9</copied_from><description>Impersonate the user:  devops with user Id: devops</description><display_name>Impersonate</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><snapshot/><step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:50:15</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>bd27501d1b7c5010fe45ed39bc4bcb0e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Impersonate</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_step_bd27501d1b7c5010fe45ed39bc4bcb0e</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:50:15</sys_updated_on><table/><test display_value="CICD Dev Ops Test copy">3527dcd91b7c5010fe45ed39bc4bcb3f</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=bd27501d1b7c5010fe45ed39bc4bcb0e"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>bd27501d1b7c5010fe45ed39bc4bcb0e</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:50:15</sys_created_on><sys_id>7527501d1b7c5010fe45ed39bc4bcb10</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:50:15</sys_updated_on><value>66f61bbc1bf41010fe45ed39bc4bcb5b</value><variable display_value="">586e2c4253e0220002c6435723dc3415</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>974567093</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>7e8385111b709010fe45ed39bc4bcbbf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9cc90000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>Impersonate</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>97734511de7090106e282f6a3bbc9d13</update_guid>
+<update_guid_history>97734511de7090106e282f6a3bbc9d13:974567093,bd27501d7f7c501071ab43366a068311:974567093</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_suite_test_f577d41d1b7c5010fe45ed39bc4bcb62</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test"><sys_atf_test_suite_test action="DELETE"><abort_on_failure>false</abort_on_failure><order/><sys_class_name>sys_atf_test_suite_test</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:51:38</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>f577d41d1b7c5010fe45ed39bc4bcb62</sys_id><sys_mod_count>0</sys_mod_count><sys_name>11c0d80fdb3e80109e793a8c7c9619a5</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_test_suite_test_f577d41d1b7c5010fe45ed39bc4bcb62</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:51:38</sys_updated_on><test display_value="SNOW DevOps copy">05779cd91b7c5010fe45ed39bc4bcbaf</test><test_suite display_value="Conference room support request">11c0d80fdb3e80109e793a8c7c9619a5</test_suite></sys_atf_test_suite_test></record_update>]]></payload>
+<payload_hash>-1857323964</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>7e8385111b709010fe45ed39bc4bcbc2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9b520000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>11c0d80fdb3e80109e793a8c7c9619a5</target_name>
+<type>Test Suite Test</type>
+<update_domain>global</update_domain>
+<update_guid>9373051132709010da06570bad605cf3</update_guid>
+<update_guid_history>9373051132709010da06570bad605cf3:-1857323964,1af7545d887c5010b07b847d6e943953:-1857323964,bd77d41d507c50103b475fa836aeb963:1393452856</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_user_role_56b82ccd1b3c1010fe45ed39bc4bcb9c</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description/><elevated_privilege>false</elevated_privilege><encryption_context/><grantable>true</grantable><includes_roles/><name>x_g_nci_snow_devop.user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:28:33</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>56b82ccd1b3c1010fe45ed39bc4bcb9c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_g_nci_snow_devop.user</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_user_role_56b82ccd1b3c1010fe45ed39bc4bcb9c</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:28:33</sys_updated_on></sys_user_role></record_update>]]></payload>
+<payload_hash>801774519</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>7e8385111b709010fe45ed39bc4bcbc5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9de00000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>x_g_nci_snow_devop.user</target_name>
+<type>Role</type>
+<update_domain>global</update_domain>
+<update_guid>6b73451132709010168891d5893f3e2b</update_guid>
+<update_guid_history>6b73451132709010168891d5893f3e2b:801774519,e86aa481b87c10108293e64ac3104bfe:801774519,16b82ccdbd3c101017dfc0d23ca2389f:-391735898</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_16b828cd1b3c1010fe45ed39bc4bcb55</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app"><sys_app action="INSERT_OR_UPDATE"><active>true</active><can_edit_in_studio>false</can_edit_in_studio><enforce_license>log</enforce_license><js_level>helsinki_es5</js_level><licensable>true</licensable><license_category>none</license_category><license_model>none</license_model><logo/><menu display_value="SNOW_DevOps">d2b8a8cd1b3c1010fe45ed39bc4bcbf2</menu><name>SNOW_DevOps</name><private>false</private><restrict_table_access>false</restrict_table_access><runtime_access_tracking>permissive</runtime_access_tracking><scope>x_g_nci_snow_devop</scope><scoped_administration>false</scoped_administration><short_description/><source>x_g_nci_snow_devop</source><store_correlation_id/><store_url/><sys_class_name>sys_app</sys_class_name><sys_code/><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:28:33</sys_created_on><sys_id>16b828cd1b3c1010fe45ed39bc4bcb55</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:28:33</sys_updated_on><template/><trackable>true</trackable><user_role display_value="x_g_nci_snow_devop.user" name="x_g_nci_snow_devop.user">56b82ccd1b3c1010fe45ed39bc4bcb9c</user_role><vendor/><vendor_prefix/><version>1.0.0</version></sys_app></record_update>]]></payload>
+<payload_hash>1143548212</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>a28385111b709010fe45ed39bc4bcbbd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9af10000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>SNOW_DevOps</target_name>
+<type>Custom Application</type>
+<update_domain>global</update_domain>
+<update_guid>9b73499dbb3090109234672165395fcc</update_guid>
+<update_guid_history>9b73499dbb3090109234672165395fcc:1143548212,ffa6d4d9f77c50102f0abecb13834756:1143548212,d6b82ccd013c10102126f731705eb8a4:-914535972</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_2444305d1bfc5010fe45ed39bc4bcbb5</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Impersonate the user: Nadim Rizk with user Id: rizknt@nih.gov</description><display_name>Impersonate</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><snapshot/><step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 14:57:55</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>2444305d1bfc5010fe45ed39bc4bcbb5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Impersonate</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_step_2444305d1bfc5010fe45ed39bc4bcbb5</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 14:57:55</sys_updated_on><table/><test display_value="SNOW TEST2">de247c5d1bfc5010fe45ed39bc4bcbd8</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=2444305d1bfc5010fe45ed39bc4bcbb5"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>2444305d1bfc5010fe45ed39bc4bcbb5</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 14:57:55</sys_created_on><sys_id>3754f45d1bfc5010fe45ed39bc4bcbbc</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 14:57:55</sys_updated_on><value>9a8aa85fdbcc8c50561276708c96198b</value><variable display_value="">586e2c4253e0220002c6435723dc3415</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-1299203190</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>b28385111b709010fe45ed39bc4bcbbe</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9bfc0000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>Impersonate</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>177345114d709010e6ffa98754f11301</update_guid>
+<update_guid_history>177345114d709010e6ffa98754f11301:-1299203190,3754f45d52fc5010dceede6407de96bd:-1299203190</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_9909e4011b7c1010fe45ed39bc4bcb8d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description/><enable_parameterized_testing>false</enable_parameterized_testing><name>SNOW DevOps</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:30:08</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>9909e4011b7c1010fe45ed39bc4bcb8d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SNOW DevOps</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_test_9909e4011b7c1010fe45ed39bc4bcb8d</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:30:08</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=9909e4011b7c1010fe45ed39bc4bcb8d"/></record_update>]]></payload>
+<payload_hash>-315682250</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>b28385111b709010fe45ed39bc4bcbc1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9bb60000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>SNOW DevOps</target_name>
+<type>Test</type>
+<update_domain>global</update_domain>
+<update_guid>93730511657090109e1387883f38edfb</update_guid>
+<update_guid_history>93730511657090109e1387883f38edfb:-315682250,e1196401707c1010cba83b1a16b8d638:-315682250</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_eeb82ccd1b3c1010fe45ed39bc4bcbba</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_g_nci_snow_devop_snow_devops_table</description><name>x_g_nci_snow_devop_snow_devops_table</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:28:33</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>eeb82ccd1b3c1010fe45ed39bc4bcbba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_g_nci_snow_devop_snow_devops_table</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_security_acl_eeb82ccd1b3c1010fe45ed39bc4bcbba</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:28:33</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>271461080</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>b28385111b709010fe45ed39bc4bcbc4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9d3d0000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table>x_g_nci_snow_devop_snow_devops_table</table>
+<target_name>x_g_nci_snow_devop_snow_devops_table</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>db734511d0709010d9db22dff74fd81d</update_guid>
+<update_guid_history>db734511d0709010d9db22dff74fd81d:271461080,22b82ccda63c1010769a763dbc66ebcd:271461080</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_dd77941d1b7c5010fe45ed39bc4bcbd9</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Submit a Form">9579ec011b7c1010fe45ed39bc4bcb4f</copied_from><description>Submit the current form and confirm form submitted to server</description><display_name>Submit a Form</display_name><inputs/><mugshots_cache_json/><notes/><order>4</order><snapshot/><step_config display_value="Submit a Form">be8e0a935332120028bc29cac2dc34e4</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:51:35</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>dd77941d1b7c5010fe45ed39bc4bcbd9</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Submit a Form</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_step_dd77941d1b7c5010fe45ed39bc4bcbd9</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:51:35</sys_updated_on><table/><test display_value="SNOW DevOps copy">05779cd91b7c5010fe45ed39bc4bcbaf</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=dd77941d1b7c5010fe45ed39bc4bcbd9"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>dd77941d1b7c5010fe45ed39bc4bcbd9</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:51:35</sys_created_on><sys_id>1977941d1b7c5010fe45ed39bc4bcbda</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:51:35</sys_updated_on><value>form_submitted_to_server</value><variable display_value="">c796d40497302200abe4bb7503ac4ad8</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-262608667</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>b68385111b709010fe45ed39bc4bcbc0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9d060000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>Submit a Form</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>d373451166709010a66f78129bb13f19</update_guid>
+<update_guid_history>d373451166709010a66f78129bb13f19:-262608667,1977941dbd7c5010fe09642c58c5ecdb:-262608667</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_x_g_nci_snow_devop_snow_devops_table__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="SNOW_DevOps Table" language="en" table="x_g_nci_snow_devop_snow_devops_table"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>SNOW_DevOps Table</label><language>en</language><name>x_g_nci_snow_devop_snow_devops_table</name><plural>SNOW_DevOps Tables</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:28:34</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>66b86ccd1b3c1010fe45ed39bc4bcb05</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SNOW_DevOps Table</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_documentation_x_g_nci_snow_devop_snow_devops_table__en</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:28:34</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1937315090</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>b68385111b709010fe45ed39bc4bcbc3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9df20000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table>x_g_nci_snow_devop_snow_devops_table</table>
+<target_name>SNOW_DevOps Table</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>a3734511217090101165c25305c5d02d</update_guid>
+<update_guid_history>a3734511217090101165c25305c5d02d:1937315090,36b86ccd463c1010d8c3daedec835d36:1937315090</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_b127501d1b7c5010fe45ed39bc4bcb28</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Submit a Form">fb36ac0d1b3c1010fe45ed39bc4bcbb0</copied_from><description>Submit the current form and confirm form submitted to server</description><display_name>Submit a Form</display_name><inputs/><mugshots_cache_json/><notes/><order>4</order><snapshot/><step_config display_value="Submit a Form">be8e0a935332120028bc29cac2dc34e4</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:50:15</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>b127501d1b7c5010fe45ed39bc4bcb28</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Submit a Form</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_step_b127501d1b7c5010fe45ed39bc4bcb28</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:50:15</sys_updated_on><table/><test display_value="CICD Dev Ops Test copy">3527dcd91b7c5010fe45ed39bc4bcb3f</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=b127501d1b7c5010fe45ed39bc4bcb28"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>b127501d1b7c5010fe45ed39bc4bcb28</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:50:15</sys_created_on><sys_id>3127501d1b7c5010fe45ed39bc4bcb29</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:50:15</sys_updated_on><value>form_submitted_to_server</value><variable display_value="">c796d40497302200abe4bb7503ac4ad8</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-285814121</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>ba8385111b709010fe45ed39bc4bcbbf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9cb30000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>Submit a Form</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>d7734511d370901028a1debab0365f11</update_guid>
+<update_guid_history>d7734511d370901028a1debab0365f11:-285814121,b127501d6d7c501087890a0eedd1832a:-285814121</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_suite_test_e752301d1bfc5010fe45ed39bc4bcb41</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test"><sys_atf_test_suite_test action="DELETE"><abort_on_failure>false</abort_on_failure><order/><sys_class_name>sys_atf_test_suite_test</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 14:49:10</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>e752301d1bfc5010fe45ed39bc4bcb41</sys_id><sys_mod_count>0</sys_mod_count><sys_name>11c0d80fdb3e80109e793a8c7c9619a5</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_test_suite_test_e752301d1bfc5010fe45ed39bc4bcb41</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 14:49:10</sys_updated_on><test display_value="SNOW DevOps copy">05779cd91b7c5010fe45ed39bc4bcbaf</test><test_suite display_value="Conference room support request">11c0d80fdb3e80109e793a8c7c9619a5</test_suite></sys_atf_test_suite_test></record_update>]]></payload>
+<payload_hash>-1857323964</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>ba8385111b709010fe45ed39bc4bcbc2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9b460000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>11c0d80fdb3e80109e793a8c7c9619a5</target_name>
+<type>Test Suite Test</type>
+<update_domain>global</update_domain>
+<update_guid>9f7305117e70901032ac9e65d3ae10f1</update_guid>
+<update_guid_history>9f7305117e70901032ac9e65d3ae10f1:-1857323964,aa83345da5fc5010123f19161cd9940a:-1857323964,e352301d64fc5010078efb9f9aa0d342:1393452856</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_8589ec011b7c1010fe45ed39bc4bcb54</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="8589ec011b7c1010fe45ed39bc4bcb54" sys_domain="global" table="x_g_nci_snow_devop_snow_devops_table" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>devops</sys_created_by><sys_created_on>2020-05-13 19:32:00</sys_created_on><sys_id>0d89ec011b7c1010fe45ed39bc4bcb5a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_g_nci_snow_devop_snow_devops_table" sys_domain="global" view="Default view">8589ec011b7c1010fe45ed39bc4bcb54</sys_ui_section><sys_updated_by>devops</sys_updated_by><sys_updated_on>2020-05-13 19:32:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_requested_for</element><position>1</position><sys_created_by>devops</sys_created_by><sys_created_on>2020-05-13 19:32:00</sys_created_on><sys_id>8189ec011b7c1010fe45ed39bc4bcb5a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_g_nci_snow_devop_snow_devops_table" sys_domain="global" view="Default view">8589ec011b7c1010fe45ed39bc4bcb54</sys_ui_section><sys_updated_by>devops</sys_updated_by><sys_updated_on>2020-05-13 19:32:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>opened_by</element><position>2</position><sys_created_by>devops</sys_created_by><sys_created_on>2020-05-13 19:32:00</sys_created_on><sys_id>8589ec011b7c1010fe45ed39bc4bcb56</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_g_nci_snow_devop_snow_devops_table" sys_domain="global" view="Default view">8589ec011b7c1010fe45ed39bc4bcb54</sys_ui_section><sys_updated_by>devops</sys_updated_by><sys_updated_on>2020-05-13 19:32:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>location</element><position>3</position><sys_created_by>devops</sys_created_by><sys_created_on>2020-05-13 19:32:00</sys_created_on><sys_id>4989ec011b7c1010fe45ed39bc4bcb58</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_g_nci_snow_devop_snow_devops_table" sys_domain="global" view="Default view">8589ec011b7c1010fe45ed39bc4bcb54</sys_ui_section><sys_updated_by>devops</sys_updated_by><sys_updated_on>2020-05-13 19:32:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>devops</sys_created_by><sys_created_on>2020-05-13 19:32:00</sys_created_on><sys_id>0189ec011b7c1010fe45ed39bc4bcb57</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_g_nci_snow_devop_snow_devops_table" sys_domain="global" view="Default view">8589ec011b7c1010fe45ed39bc4bcb54</sys_ui_section><sys_updated_by>devops</sys_updated_by><sys_updated_on>2020-05-13 19:32:00</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>urgency</element><position>5</position><sys_created_by>devops</sys_created_by><sys_created_on>2020-05-13 19:32:00</sys_created_on><sys_id>c189ec011b7c1010fe45ed39bc4bcb59</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_g_nci_snow_devop_snow_devops_table" sys_domain="global" view="Default view">8589ec011b7c1010fe45ed39bc4bcb54</sys_ui_section><sys_updated_by>devops</sys_updated_by><sys_updated_on>2020-05-13 19:32:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>state</element><position>6</position><sys_created_by>devops</sys_created_by><sys_created_on>2020-05-13 19:32:00</sys_created_on><sys_id>8989ec011b7c1010fe45ed39bc4bcb57</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_g_nci_snow_devop_snow_devops_table" sys_domain="global" view="Default view">8589ec011b7c1010fe45ed39bc4bcb54</sys_ui_section><sys_updated_by>devops</sys_updated_by><sys_updated_on>2020-05-13 19:32:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assignment_group</element><position>7</position><sys_created_by>devops</sys_created_by><sys_created_on>2020-05-13 19:32:00</sys_created_on><sys_id>0989ec011b7c1010fe45ed39bc4bcb59</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_g_nci_snow_devop_snow_devops_table" sys_domain="global" view="Default view">8589ec011b7c1010fe45ed39bc4bcb54</sys_ui_section><sys_updated_by>devops</sys_updated_by><sys_updated_on>2020-05-13 19:32:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>assigned_to</element><position>8</position><sys_created_by>devops</sys_created_by><sys_created_on>2020-05-13 19:32:00</sys_created_on><sys_id>cd89ec011b7c1010fe45ed39bc4bcb57</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_g_nci_snow_devop_snow_devops_table" sys_domain="global" view="Default view">8589ec011b7c1010fe45ed39bc4bcb54</sys_ui_section><sys_updated_by>devops</sys_updated_by><sys_updated_on>2020-05-13 19:32:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>9</position><sys_created_by>devops</sys_created_by><sys_created_on>2020-05-13 19:32:00</sys_created_on><sys_id>c589ec011b7c1010fe45ed39bc4bcb5a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_g_nci_snow_devop_snow_devops_table" sys_domain="global" view="Default view">8589ec011b7c1010fe45ed39bc4bcb54</sys_ui_section><sys_updated_by>devops</sys_updated_by><sys_updated_on>2020-05-13 19:32:00</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>short_description</element><position>10</position><sys_created_by>devops</sys_created_by><sys_created_on>2020-05-13 19:32:00</sys_created_on><sys_id>4d89ec011b7c1010fe45ed39bc4bcb55</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_g_nci_snow_devop_snow_devops_table" sys_domain="global" view="Default view">8589ec011b7c1010fe45ed39bc4bcb54</sys_ui_section><sys_updated_by>devops</sys_updated_by><sys_updated_on>2020-05-13 19:32:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>description</element><position>11</position><sys_created_by>devops</sys_created_by><sys_created_on>2020-05-13 19:32:00</sys_created_on><sys_id>0589ec011b7c1010fe45ed39bc4bcb58</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_g_nci_snow_devop_snow_devops_table" sys_domain="global" view="Default view">8589ec011b7c1010fe45ed39bc4bcb54</sys_ui_section><sys_updated_by>devops</sys_updated_by><sys_updated_on>2020-05-13 19:32:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>comments</element><position>12</position><sys_created_by>devops</sys_created_by><sys_created_on>2020-05-13 19:32:00</sys_created_on><sys_id>c989ec011b7c1010fe45ed39bc4bcb56</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_g_nci_snow_devop_snow_devops_table" sys_domain="global" view="Default view">8589ec011b7c1010fe45ed39bc4bcb54</sys_ui_section><sys_updated_by>devops</sys_updated_by><sys_updated_on>2020-05-13 19:32:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>work_notes</element><position>13</position><sys_created_by>devops</sys_created_by><sys_created_on>2020-05-13 19:32:00</sys_created_on><sys_id>8d89ec011b7c1010fe45ed39bc4bcb58</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_g_nci_snow_devop_snow_devops_table" sys_domain="global" view="Default view">8589ec011b7c1010fe45ed39bc4bcb54</sys_ui_section><sys_updated_by>devops</sys_updated_by><sys_updated_on>2020-05-13 19:32:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>activity.xml</element><position>14</position><sys_created_by>devops</sys_created_by><sys_created_on>2020-05-13 19:32:00</sys_created_on><sys_id>4589ec011b7c1010fe45ed39bc4bcb57</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter><sys_ui_section caption="NULL" display_value="" name="x_g_nci_snow_devop_snow_devops_table" sys_domain="global" view="Default view">8589ec011b7c1010fe45ed39bc4bcb54</sys_ui_section><sys_updated_by>devops</sys_updated_by><sys_updated_on>2020-05-13 19:32:00</sys_updated_on><sys_user/><type>formatter</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_asset</element><position>15</position><sys_created_by>devops</sys_created_by><sys_created_on>2020-05-13 19:32:00</sys_created_on><sys_id>4d89ec011b7c1010fe45ed39bc4bcb59</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_g_nci_snow_devop_snow_devops_table" sys_domain="global" view="Default view">8589ec011b7c1010fe45ed39bc4bcb54</sys_ui_section><sys_updated_by>devops</sys_updated_by><sys_updated_on>2020-05-13 19:32:00</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_g_nci_snow_devop_snow_devops_table</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>devops</sys_created_by><sys_created_on>2020-05-13 19:32:00</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>8589ec011b7c1010fe45ed39bc4bcb54</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_g_nci_snow_devop_snow_devops_table</sys_name><sys_overrides/><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_ui_section_8589ec011b7c1010fe45ed39bc4bcb54</sys_update_name><sys_updated_by>devops</sys_updated_by><sys_updated_on>2020-05-13 19:32:00</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>1569285277</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>ba8385111b709010fe45ed39bc4bcbc5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9e530000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table>x_g_nci_snow_devop_snow_devops_table</table>
+<target_name>SNOW_DevOps Table</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>23734511627090102c9d64b73eb9f133</update_guid>
+<update_guid_history>23734511627090102c9d64b73eb9f133:1569285277,e86ae481bc7c1010a079967fc9a0980e:1569285277</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_871968011b7c1010fe45ed39bc4bcb32</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Impersonate the user:  devops with user Id: devops</description><display_name>Impersonate</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><snapshot/><step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:30:27</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>871968011b7c1010fe45ed39bc4bcb32</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Impersonate</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_step_871968011b7c1010fe45ed39bc4bcb32</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:30:27</sys_updated_on><table/><test display_value="SNOW DevOps">9909e4011b7c1010fe45ed39bc4bcb8d</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=871968011b7c1010fe45ed39bc4bcb32"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>871968011b7c1010fe45ed39bc4bcb32</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:30:27</sys_created_on><sys_id>de2924011b7c1010fe45ed39bc4bcb74</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:30:27</sys_updated_on><value>66f61bbc1bf41010fe45ed39bc4bcb5b</value><variable display_value="">586e2c4253e0220002c6435723dc3415</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-448334526</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>be8385111b709010fe45ed39bc4bcbbe</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9c5f0000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>Impersonate</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>9b73451191709010b9fabc4a6448ba09</update_guid>
+<update_guid_history>9b73451191709010b9fabc4a6448ba09:-448334526,d6292401c47c1010bacc81e6a1a31076:-448334526</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_suite_test_6752bcd91bfc5010fe45ed39bc4bcbc8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test"><sys_atf_test_suite_test action="DELETE"><abort_on_failure>false</abort_on_failure><order/><sys_class_name>sys_atf_test_suite_test</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 14:49:10</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>6752bcd91bfc5010fe45ed39bc4bcbc8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>11c0d80fdb3e80109e793a8c7c9619a5</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_test_suite_test_6752bcd91bfc5010fe45ed39bc4bcbc8</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 14:49:10</sys_updated_on><test display_value="SNOW DevOps">9909e4011b7c1010fe45ed39bc4bcb8d</test><test_suite display_value="Conference room support request">11c0d80fdb3e80109e793a8c7c9619a5</test_suite></sys_atf_test_suite_test></record_update>]]></payload>
+<payload_hash>-1729104323</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>be8385111b709010fe45ed39bc4bcbc1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9b190000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>11c0d80fdb3e80109e793a8c7c9619a5</target_name>
+<type>Test Suite Test</type>
+<update_domain>global</update_domain>
+<update_guid>1f73499d5130901057ca95e28b27f7d0</update_guid>
+<update_guid_history>1f73499d5130901057ca95e28b27f7d0:-1729104323,3e53305db1fc50105ad46fa2eac79e67:-1729104323,2752301db6fc501005701bb061af573f:-484769079</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_62b82ccd1b3c1010fe45ed39bc4bcbd8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:28:34</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>62b82ccd1b3c1010fe45ed39bc4bcbd8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_g_nci_snow_devop_snow_devops_table.x_g_nci_snow_devop.user</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_security_acl display_value="x_g_nci_snow_devop_snow_devops_table">26b82ccd1b3c1010fe45ed39bc4bcbd2</sys_security_acl><sys_update_name>sys_security_acl_role_62b82ccd1b3c1010fe45ed39bc4bcbd8</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:28:34</sys_updated_on><sys_user_role display_value="x_g_nci_snow_devop.user" name="x_g_nci_snow_devop.user">56b82ccd1b3c1010fe45ed39bc4bcb9c</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>697243731</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>be8385111b709010fe45ed39bc4bcbc4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9d940000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table>x_g_nci_snow_devop_snow_devops_table</table>
+<target_name>x_g_nci_snow_devop_snow_devops_table.x_g_nci_snow_devop.user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>a3734511e57090108bedb3486438d525</update_guid>
+<update_guid_history>a3734511e57090108bedb3486438d525:697243731,2ab82ccd383c1010bc08ba5fff771ce7:697243731</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_db4f68151bfc5010fe45ed39bc4bcb4f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Impersonate the user:  devops with user Id: devops</description><display_name>Impersonate</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><snapshot/><step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 14:35:56</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>db4f68151bfc5010fe45ed39bc4bcb4f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Impersonate</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_step_db4f68151bfc5010fe45ed39bc4bcb4f</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 14:35:56</sys_updated_on><table/><test display_value="Snow_DevOps_1">7c3fac191bfc5010fe45ed39bc4bcb6d</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=db4f68151bfc5010fe45ed39bc4bcb4f"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>db4f68151bfc5010fe45ed39bc4bcb4f</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 14:35:57</sys_created_on><sys_id>b15f24911bfc5010fe45ed39bc4bcb49</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 14:35:57</sys_updated_on><value>66f61bbc1bf41010fe45ed39bc4bcb5b</value><variable display_value="">586e2c4253e0220002c6435723dc3415</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>-1307855266</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>f28385111b709010fe45ed39bc4bcbc0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9cf30000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>Impersonate</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>57734511587090102d871ca4b30a4617</update_guid>
+<update_guid_history>57734511587090102d871ca4b30a4617:-1307855266,b55f249197fc50101dea121bdafdaf4a:-1307855266</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_x_g_nci_snow_devop_snow_devops_table_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" extends="task" table="x_g_nci_snow_devop_snow_devops_table"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation>(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);</calculation><choice/><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_g_nci_snow_devop_snow_devops_table</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:28:34</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>2ab82ccd1b3c1010fe45ed39bc4bcbfb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_g_nci_snow_devop_snow_devops_table</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_dictionary_x_g_nci_snow_devop_snow_devops_table_null</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:28:34</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><u_model_id/><u_normalize_set/><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<payload_hash>-191721154</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>f28385111b709010fe45ed39bc4bcbc3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9d610000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table>x_g_nci_snow_devop_snow_devops_table</table>
+<target_name>SNOW_DevOps Table</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>ab7345118c709010143f2e73dc357b20</update_guid>
+<update_guid_history>ab7345118c709010143f2e73dc357b20:-191721154,72b86ccd443c101039ecb04866d52835:-191721154</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_e6b86ccd1b3c1010fe45ed39bc4bcb32</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="INSERT_OR_UPDATE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>x_g_nci_snow_devop_snow_devops_table</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:28:34</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>e6b86ccd1b3c1010fe45ed39bc4bcb32</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_g_nci_snow_devop_snow_devops_table</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>ua_table_licensing_config_e6b86ccd1b3c1010fe45ed39bc4bcb32</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:28:34</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<payload_hash>-1300486579</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>f28385111b709010fe45ed39bc4bcbc6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9e900000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>x_g_nci_snow_devop_snow_devops_table</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>ab734511ec709010a9699bfa72c15a37</update_guid>
+<update_guid_history>ab734511ec709010a9699bfa72c15a37:-1300486579,3ab86ccd553c10101fe8f3afd6a36933:-1300486579</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_aa492c011b7c1010fe45ed39bc4bcba6</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Set the values on the form as follows:
+State = Open
+and Short description = ATF Test for CICD
+and Assignment group = ITIL read/only
+and Urgency = 3 - Low</description><display_name>Set Field Values</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><snapshot/><step_config display_value="Set Field Values">fcae4a935332120028bc29cac2dc340e</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:31:37</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>aa492c011b7c1010fe45ed39bc4bcba6</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Set Field Values</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_step_aa492c011b7c1010fe45ed39bc4bcba6</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:34:19</sys_updated_on><table>x_g_nci_snow_devop_snow_devops_table</table><test display_value="SNOW DevOps">9909e4011b7c1010fe45ed39bc4bcb8d</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=aa492c011b7c1010fe45ed39bc4bcba6"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>aa492c011b7c1010fe45ed39bc4bcba6</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:31:38</sys_created_on><sys_id>e369ac011b7c1010fe45ed39bc4bcbc6</sys_id><sys_mod_count>2</sys_mod_count><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:34:19</sys_updated_on><value>state=1^short_description=ATF Test for CICD^assignment_group=7b4e75806f868a00e04fd15eae3ee488^urgency=3^EQ</value><variable display_value="">b3dba2465320220002c6435723dc34f0</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>aa492c011b7c1010fe45ed39bc4bcba6</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:31:38</sys_created_on><sys_id>ef69ac011b7c1010fe45ed39bc4bcbc5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:31:38</sys_updated_on><value>x_g_nci_snow_devop_snow_devops_table</value><variable display_value="">424ca6465320220002c6435723dc34b5</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>592432723</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>f68385111b709010fe45ed39bc4bcbbf</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9ca00000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table>x_g_nci_snow_devop_snow_devops_table</table>
+<target_name>Set Field Values</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>5b7345116c709010832425b3a82e180f</update_guid>
+<update_guid_history>5b7345116c709010832425b3a82e180f:592432723,b60a6841467c10106622305405236943:592432723,98c9a441d87c101027a2318d2cd95962:1575818993,e769ac01517c10101132e341672209c7:-1126275827</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_suite_test_ce19e0491b7c101094edddb6bc4bcb4f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test"><sys_atf_test_suite_test action="DELETE"><abort_on_failure>false</abort_on_failure><order/><sys_class_name>sys_atf_test_suite_test</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:30:10</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>ce19e0491b7c101094edddb6bc4bcb4f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>11c0d80fdb3e80109e793a8c7c9619a5</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_test_suite_test_ce19e0491b7c101094edddb6bc4bcb4f</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:30:10</sys_updated_on><test display_value="SNOW DevOps">9909e4011b7c1010fe45ed39bc4bcb8d</test><test_suite display_value="Conference room support request">11c0d80fdb3e80109e793a8c7c9619a5</test_suite></sys_atf_test_suite_test></record_update>]]></payload>
+<payload_hash>-1729104323</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>f68385111b709010fe45ed39bc4bcbc2</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9b2f0000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>11c0d80fdb3e80109e793a8c7c9619a5</target_name>
+<type>Test Suite Test</type>
+<update_domain>global</update_domain>
+<update_guid>9773051113709010d4ee7207249836ef</update_guid>
+<update_guid_history>9773051113709010d4ee7207249836ef:-1729104323,4308505d8c7c501040bc240e4d566eb0:-1729104323,4219e0491a7c1010bf81d4346b0a6d51:-484769079</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_72b86ccd1b3c1010fe45ed39bc4bcb52</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="SNOW_DevOps">f2b86ccd1b3c1010fe45ed39bc4bcb50</application><filter/><name>SNOW_DevOps Table</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_g_nci_snow_devop.user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:28:34</sys_created_on><sys_customer_update>false</sys_customer_update><sys_domain>global</sys_domain><sys_id>72b86ccd1b3c1010fe45ed39bc4bcb52</sys_id><sys_mod_count>0</sys_mod_count><sys_name>SNOW_DevOps Table</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_ui_module_72b86ccd1b3c1010fe45ed39bc4bcb52</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:28:34</sys_updated_on><table>x_g_nci_snow_devop_snow_devops_table</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>-1847729064</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>f68385111b709010fe45ed39bc4bcbc5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9e090000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table>x_g_nci_snow_devop_snow_devops_table</table>
+<target_name>SNOW_DevOps Table</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>2f7345115d70901087b71419fd98122e</update_guid>
+<update_guid_history>2f7345115d70901087b71419fd98122e:-1847729064,36b86ccd4e3c1010a07063ceb2938353:-1847729064</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_7927501d1b7c5010fe45ed39bc4bcb13</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Open a New Form">0116e80d1b3c1010fe45ed39bc4bcb46</copied_from><description>Open a new 'CICD_Dev_Ops Table' form</description><display_name>Open a New Form</display_name><inputs/><mugshots_cache_json/><notes/><order>2</order><snapshot/><step_config display_value="Open a New Form">05317cd10b10220050192f15d6673af8</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:50:15</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>7927501d1b7c5010fe45ed39bc4bcb13</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Open a New Form</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_step_7927501d1b7c5010fe45ed39bc4bcb13</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:50:15</sys_updated_on><table>x_g_nci_cicd_dev_o_cicd_dev_ops_table</table><test display_value="CICD Dev Ops Test copy">3527dcd91b7c5010fe45ed39bc4bcb3f</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=7927501d1b7c5010fe45ed39bc4bcb13"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7927501d1b7c5010fe45ed39bc4bcb13</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:50:15</sys_created_on><sys_id>3927501d1b7c5010fe45ed39bc4bcb14</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:50:15</sys_updated_on><value/><variable display_value="">27d4e1c25320220002c6435723dc3486</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>7927501d1b7c5010fe45ed39bc4bcb13</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:50:15</sys_created_on><sys_id>f927501d1b7c5010fe45ed39bc4bcb14</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:50:15</sys_updated_on><value>x_g_nci_cicd_dev_o_cicd_dev_ops_table</value><variable display_value="">bb84ed825320220002c6435723dc3400</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>301431668</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>fa8385111b709010fe45ed39bc4bcbbe</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9c4c0000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table>x_g_nci_cicd_dev_o_cicd_dev_ops_table</table>
+<target_name>Open a New Form</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>1f7345119b709010fa0991064406b307</update_guid>
+<update_guid_history>1f7345119b709010fa0991064406b307:301431668,fd27501d177c5010e0f0925379fa2215:301431668</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_suite_test_654f6c191bfc5010fe45ed39bc4bcb83</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test"><sys_atf_test_suite_test action="DELETE"><abort_on_failure>false</abort_on_failure><order/><sys_class_name>sys_atf_test_suite_test</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 14:35:39</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>654f6c191bfc5010fe45ed39bc4bcb83</sys_id><sys_mod_count>0</sys_mod_count><sys_name>11c0d80fdb3e80109e793a8c7c9619a5</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_test_suite_test_654f6c191bfc5010fe45ed39bc4bcb83</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 14:35:39</sys_updated_on><test display_value="Snow_DevOps_1">7c3fac191bfc5010fe45ed39bc4bcb6d</test><test_suite display_value="Conference room support request">11c0d80fdb3e80109e793a8c7c9619a5</test_suite></sys_atf_test_suite_test></record_update>]]></payload>
+<payload_hash>395168525</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>fa8385111b709010fe45ed39bc4bcbc1</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9b0e0000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>11c0d80fdb3e80109e793a8c7c9619a5</target_name>
+<type>Test Suite Test</type>
+<update_domain>global</update_domain>
+<update_guid>1b73499d50309010a8f47b6870cec0cf</update_guid>
+<update_guid_history>1b73499d50309010a8f47b6870cec0cf:395168525,3e53305d7cfc50107bae4741fec78e64:395168525,e94f6c1973fc5010fc8b4d2b29159884:-2094537575</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_2eb82ccd1b3c1010fe45ed39bc4bcbf7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:28:34</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>2eb82ccd1b3c1010fe45ed39bc4bcbf7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_g_nci_snow_devop_snow_devops_table.x_g_nci_snow_devop.user</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_security_acl display_value="x_g_nci_snow_devop_snow_devops_table">eeb82ccd1b3c1010fe45ed39bc4bcbf1</sys_security_acl><sys_update_name>sys_security_acl_role_2eb82ccd1b3c1010fe45ed39bc4bcbf7</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:28:34</sys_updated_on><sys_user_role display_value="x_g_nci_snow_devop.user" name="x_g_nci_snow_devop.user">56b82ccd1b3c1010fe45ed39bc4bcb9c</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-565057108</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>fa8385111b709010fe45ed39bc4bcbc4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9d850000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table>x_g_nci_snow_devop_snow_devops_table</table>
+<target_name>x_g_nci_snow_devop_snow_devops_table.x_g_nci_snow_devop.user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>eb734511cb70901026ea64a93668ea23</update_guid>
+<update_guid_history>eb734511cb70901026ea64a93668ea23:-565057108,2eb82ccda23c10100aacc2c4a137ddfa:-565057108</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_step_05779cd91b7c5010fe45ed39bc4bcbb2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Impersonate">871968011b7c1010fe45ed39bc4bcb32</copied_from><description>Impersonate the user:  devops with user Id: devops</description><display_name>Impersonate</display_name><inputs/><mugshots_cache_json/><notes/><order>1</order><snapshot/><step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:51:35</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>05779cd91b7c5010fe45ed39bc4bcbb2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Impersonate</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_step_05779cd91b7c5010fe45ed39bc4bcbb2</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:51:35</sys_updated_on><table/><test display_value="SNOW DevOps copy">05779cd91b7c5010fe45ed39bc4bcbaf</test><timeout/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=05779cd91b7c5010fe45ed39bc4bcbb2"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>05779cd91b7c5010fe45ed39bc4bcbb2</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 12:51:35</sys_created_on><sys_id>01779cd91b7c5010fe45ed39bc4bcbb3</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 12:51:35</sys_updated_on><value>66f61bbc1bf41010fe45ed39bc4bcb5b</value><variable display_value="">586e2c4253e0220002c6435723dc3415</variable></sys_variable_value></record_update>]]></payload>
+<payload_hash>724029364</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>fe8385111b709010fe45ed39bc4bcbbd</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9be70000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>Impersonate</target_name>
+<type>Test Step</type>
+<update_domain>global</update_domain>
+<update_guid>5773051111709010dee0f8ee59516aff</update_guid>
+<update_guid_history>5773051111709010dee0f8ee59516aff:724029364,41779cd9a27c5010d879e38c07f9ceb4:724029364</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_atf_test_7c3fac191bfc5010fe45ed39bc4bcb6d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test"><sys_atf_test action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description/><enable_parameterized_testing>false</enable_parameterized_testing><name>Snow_DevOps_1</name><parameters/><remember/><sys_class_name>sys_atf_test</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-14 14:35:39</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>7c3fac191bfc5010fe45ed39bc4bcb6d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Snow_DevOps_1</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_atf_test_7c3fac191bfc5010fe45ed39bc4bcb6d</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-14 14:35:39</sys_updated_on></sys_atf_test><sys_variable_value action="delete_multiple" query="document_key=7c3fac191bfc5010fe45ed39bc4bcb6d"/></record_update>]]></payload>
+<payload_hash>-1343925290</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>fe8385111b709010fe45ed39bc4bcbc0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9b9e0000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table/>
+<target_name>Snow_DevOps_1</target_name>
+<type>Test</type>
+<update_domain>global</update_domain>
+<update_guid>d3730511ea7090104b711d7fa1e9a9f9</update_guid>
+<update_guid_history>d3730511ea7090104b711d7fa1e9a9f9:-1343925290,e54f24558dfc5010a131d9d6066502cc:-1343925290</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_66b82ccd1b3c1010fe45ed39bc4bcbe8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_g_nci_snow_devop_snow_devops_table</description><name>x_g_nci_snow_devop_snow_devops_table</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>rizknt@nih.gov</sys_created_by><sys_created_on>2020-05-13 19:28:34</sys_created_on><sys_customer_update>false</sys_customer_update><sys_id>66b82ccd1b3c1010fe45ed39bc4bcbe8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_g_nci_snow_devop_snow_devops_table</sys_name><sys_package display_value="SNOW_DevOps" source="x_g_nci_snow_devop">16b828cd1b3c1010fe45ed39bc4bcb55</sys_package><sys_policy/><sys_replace_on_upgrade>false</sys_replace_on_upgrade><sys_scope display_value="SNOW_DevOps">16b828cd1b3c1010fe45ed39bc4bcb55</sys_scope><sys_update_name>sys_security_acl_66b82ccd1b3c1010fe45ed39bc4bcbe8</sys_update_name><sys_updated_by>rizknt@nih.gov</sys_updated_by><sys_updated_on>2020-05-13 19:28:34</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>65814856</payload_hash>
+<remote_update_set display_value="SNOW_DevOps - 1.0.0">ae8385111b709010fe45ed39bc4bcbbc</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>devops</sys_created_by>
+<sys_created_on>2020-05-14 16:04:12</sys_created_on>
+<sys_id>fe8385111b709010fe45ed39bc4bcbc3</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>17213ed9d2e0000001</sys_recorded_at>
+<sys_updated_by>devops</sys_updated_by>
+<sys_updated_on>2020-05-14 16:04:12</sys_updated_on>
+<table>x_g_nci_snow_devop_snow_devops_table</table>
+<target_name>x_g_nci_snow_devop_snow_devops_table</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>57734511e97090103cdcfec3aa98ac1c</update_guid>
+<update_guid_history>57734511e97090103cdcfec3aa98ac1c:65814856,e6b82ccd2b3c101030b9b85b1f560fed:65814856</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
