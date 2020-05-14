@@ -1,0 +1,14 @@
+{
+  "document": "sys_atf_step",
+  "document_key": "aa492c011b7c1010fe45ed39bc4bcba6",
+  "order": 100,
+  "sys_class_name": "sys_variable_value",
+  "sys_created_by": "rizknt@nih.gov",
+  "sys_created_on": "2020-05-13 19:31:38",
+  "sys_id": "ef69ac011b7c1010fe45ed39bc4bcbc5",
+  "sys_mod_count": 0,
+  "sys_updated_by": "rizknt@nih.gov",
+  "sys_updated_on": "2020-05-13 19:31:38",
+  "value": "x_g_nci_snow_devop_snow_devops_table",
+  "variable": "424ca6465320220002c6435723dc34b5"
+}
