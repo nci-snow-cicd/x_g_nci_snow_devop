@@ -24,7 +24,7 @@
 		"request": "^2.88.0",
 		"request-promise": "^4.2.2",
 		"sn-project": "github:bmoers/sn-project#semver:^3",
-		"uuid": "^3.3.2"
+		"uuid": "^7.0.3"
 	},
 	"scripts": {
 		"build": "gulp",
