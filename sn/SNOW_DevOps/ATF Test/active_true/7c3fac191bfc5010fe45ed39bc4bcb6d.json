@@ -1,0 +1,21 @@
+{
+  "active": true,
+  "copied_from": null,
+  "description": null,
+  "enable_parameterized_testing": false,
+  "name": "Snow_DevOps_1",
+  "parameters": null,
+  "remember": null,
+  "sys_class_name": "sys_atf_test",
+  "sys_created_by": "rizknt@nih.gov",
+  "sys_created_on": "2020-05-14 14:35:39",
+  "sys_id": "7c3fac191bfc5010fe45ed39bc4bcb6d",
+  "sys_mod_count": 0,
+  "sys_name": "Snow_DevOps_1",
+  "sys_package": "16b828cd1b3c1010fe45ed39bc4bcb55",
+  "sys_policy": null,
+  "sys_scope": "16b828cd1b3c1010fe45ed39bc4bcb55",
+  "sys_update_name": "sys_atf_test_7c3fac191bfc5010fe45ed39bc4bcb6d",
+  "sys_updated_by": "rizknt@nih.gov",
+  "sys_updated_on": "2020-05-14 14:35:39"
+}
