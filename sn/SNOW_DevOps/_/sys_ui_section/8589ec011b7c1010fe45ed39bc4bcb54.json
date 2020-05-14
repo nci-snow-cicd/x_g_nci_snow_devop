@@ -1,0 +1,21 @@
+{
+  "caption": null,
+  "header": false,
+  "name": "x_g_nci_snow_devop_snow_devops_table",
+  "roles": null,
+  "sys_class_name": "sys_ui_section",
+  "sys_created_by": "devops",
+  "sys_created_on": "2020-05-13 19:32:00",
+  "sys_id": "8589ec011b7c1010fe45ed39bc4bcb54",
+  "sys_mod_count": 0,
+  "sys_name": "x_g_nci_snow_devop_snow_devops_table",
+  "sys_package": "16b828cd1b3c1010fe45ed39bc4bcb55",
+  "sys_policy": null,
+  "sys_scope": "16b828cd1b3c1010fe45ed39bc4bcb55",
+  "sys_update_name": "sys_ui_section_8589ec011b7c1010fe45ed39bc4bcb54",
+  "sys_updated_by": "devops",
+  "sys_updated_on": "2020-05-13 19:32:00",
+  "title": true,
+  "view": "Default view",
+  "view_name": null
+}
