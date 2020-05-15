@@ -43,7 +43,7 @@
   "reference_qual": null,
   "reference_qual_condition": null,
   "reference_type": null,
-  "sizeclass": null,
+  "sizeclass": 17,
   "spell_check": false,
   "staged": false,
   "sys_class_name": "sys_dictionary",
